@@ -33,5 +33,11 @@ public class Triangulo extends Figura {
     public String toString() {
         return "Triangulo [base=" + base + ", altura= " + altura + " cor=" + super.getCor() + "]";
     }
+
+    @Override
+    public double area() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'area'");
+    }
     
 }
